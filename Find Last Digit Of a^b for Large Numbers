@@ -1,0 +1,12 @@
+//Find Last Digit Of a^b for Large Numbers
+//You are given two integer numbers, the base a and the index b. You have to find the last digit of a^b
+
+#include<stdio.h>
+#include <math.h>
+int main(){
+    int a,b,c,d;
+    scanf("%d\n%d",&a,&b);
+    c=pow(a,b);
+    d=c%10;
+    printf("%d",d);
+}
